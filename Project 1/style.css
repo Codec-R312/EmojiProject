@@ -1,0 +1,39 @@
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+  }
+  
+  .emoji {
+    font-size: 15rem;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .emoji2 {
+    font-size: 20rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .closed {
+    display: none;
+  }
+  
+  .open {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
